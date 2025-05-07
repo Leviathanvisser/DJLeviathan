@@ -1,0 +1,102 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+.cta-button {
+    background-color: cyan;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #00b3b3;
+}
+
+/* Specific Styles */
+.hero {
+    background: url('your-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 60px 20px;
+}
+
+.packages {
+    background-color: #333;
+}
+
+.package {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid cyan;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact button {
+    background-color: cyan;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #00b3b3;
+}

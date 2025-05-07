@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packages - DJ Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">DJ Service</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="packages">
+        <h2>Our DJ Packages</h2>
+        <div class="package">
+            <h3>Standard Package</h3>
+            <p>Perfect for small events. Includes 4 hours of DJing and basic sound system.</p>
+            <p>$500</p>
+        </div>
+        <div class="package">
+            <h3>Premium Package</h3>
+            <p>Includes 6 hours of DJing, lighting setup, and premium sound system.</p>
+            <p>$800</p>
+        </div>
+        <div class="package">
+            <h3>Deluxe Package</h3>
+            <p>For large events, includes everything from the Premium Package plus custom playlist and live mixing.</p>
+            <p>$1200</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 DJ Service | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

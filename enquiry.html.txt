@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - DJ Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">DJ Service</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="enquiry">
+        <h2>Enquiry Form</h2>
+        <p>Please fill out this form to make an enquiry or book a DJ for your event.</p>
+        <a href="https://forms.gle/your-google-form-link" class="cta-button">Fill Out Enquiry Form</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 DJ Service | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
